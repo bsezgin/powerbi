@@ -6,9 +6,9 @@ return new Promise(function (resolve, reject) {
 
     const url = 'https://login.microsoftonline.com/common/oauth2/token';
 
-    const username = ''; // Username of PowerBI "pro" account - stored in config
-    const password = ''; // Password of PowerBI "pro" account - stored in config
-    const clientId = ''; // Applicaton ID of app registered via Azure Active Directory - stored in config
+    const username = 'bulents@empecta.com'; // Username of PowerBI "pro" account - stored in config
+    const password = 'Aa123456'; // Password of PowerBI "pro" account - stored in config
+    const clientId = '4384a5ae-3de7-46f8-b8e5-9b1fa297a602'; // Applicaton ID of app registered via Azure Active Directory - stored in config
 
     const headers = {
         'Content-Type': 'application/x-www-form-urlencoded'
